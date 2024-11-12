@@ -1,7 +1,6 @@
 ﻿#include <iostream>
 #include <windows.h>
-#include <cstdlib>
-#include <ctime>
+//#include <ctime>
 #include <thread>
 #include <chrono>
 
@@ -123,5 +122,4 @@ void startGame() {
 int main() {
     // Start the game
     startGame();
-    return 0;
 }
